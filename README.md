@@ -6,8 +6,6 @@
  ##git remote add origin https://github.com/think4ff/sparkSam.git
  
  git clone https://github.com/think4ff/sparkSam.git
- 
- new_repository => https://github.com/think4ff/spark_JM.git
 ------------------------------------------------------------------------------
 git config --global user.name "이름"
 git config --global user.email "깃허브 메일주소" // 매번 물어보는 귀찮음을 피하기 위해 설정.
