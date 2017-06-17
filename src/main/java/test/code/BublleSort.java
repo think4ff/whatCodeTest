@@ -17,6 +17,7 @@ public class BublleSort {
             seq++;
             System.out.print(seq == arr2Size ? b + "" : b + ", ");
         }
+        //just modify for merge test...
     }
 
     private static int[] bubbleSort(int[] arr) {
