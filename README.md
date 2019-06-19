@@ -4,6 +4,10 @@
 2.git usage.
 
 
+여기는 master에서 하는 tag 테스트.
+----------------------------------
+
+
  git init
 
  ##git remote add origin https://github.com/think4ff/sparkSam.git
