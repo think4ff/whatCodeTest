@@ -26,8 +26,7 @@ public class Rakuten_Test01 {
     public int solution(int inVal) {
         
         int retVal = 0;
-        String inStr = Integer.toString(inVal);
-        char[] numArrs = inStr.toCharArray();
+        char[] numArrs = Integer.toString(inVal).toCharArray();
         
         Arrays.sort(numArrs);
         int inArrsLen = numArrs.length;
@@ -39,7 +38,7 @@ public class Rakuten_Test01 {
         if(minNum1st == 1)
             return ++retVal;
 
-        List<Character> maxCharList = new ArrayList<Character>();
+        List<Character> maxCharList = new ArrayList<>();
         for(char c : numArrs)
             maxCharList.add(c);
         Collections.reverse(maxCharList);
