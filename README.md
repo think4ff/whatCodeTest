@@ -1,6 +1,7 @@
 # whatCodeTest
-1)anything code test
-2)git usage.
+1.anything code test
+2.git usage.
+ 
  git init
 
  ##git remote add origin https://github.com/think4ff/sparkSam.git
